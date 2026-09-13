@@ -1,0 +1,46 @@
+Package: bluemesh-parser
+Version: 1.0.0-20260910141807
+Architecture: all
+Maintainer: BlueMesh <release@bluemesh.local>
+Installed-Size: 5196
+Depends: python3 (>= 3.11), python3-venv, python3-pip
+Recommends: curl
+Filename: ./bluemesh-parser_1.0.0-20260910141807_all.deb
+Size: 1319296
+MD5sum: b87362f8efb8b3baaefc98a94c0b11a6
+SHA1: f74d560584fcff10c5b5bdda967fa98ad149f08d
+SHA256: 0e8d392e838fc587f0cb815eef507c8fb5bf11c9bc71ecbe174f35e6ac347d9a
+Section: net
+Priority: optional
+Description: BlueMesh parser service (hardened build)
+ Ships the service as compiled CPython extensions rather than readable source.
+ One package serves x86_64 and aarch64: an extension's filename encodes the
+ platform and interpreter, so each host loads only the .so built for it.
+ .
+ Installs to /data/app/prod/parser and registers the bluemesh-parser systemd unit on port 8152.
+ Python dependencies are installed into a private virtualenv by the post-install
+ step; that requires network access.
+
+Package: bluemesh-parser
+Version: 1.0.0-20260913113154
+Architecture: all
+Maintainer: BlueMesh <release@bluemesh.local>
+Installed-Size: 5196
+Depends: python3 (>= 3.11), python3-venv, python3-pip
+Recommends: curl
+Filename: ./bluemesh-parser_1.0.0-20260913113154_all.deb
+Size: 1318240
+MD5sum: cd30f175042ec950643832ccca12fd18
+SHA1: 5cf09f75bf389d343fc58d9421b4d5def8e9a017
+SHA256: 7718bfb1a69bf42f69a483aca234310160ddb8284498e83d9ed8b6c47357da5b
+Section: net
+Priority: optional
+Description: BlueMesh parser service (hardened build)
+ Ships the service as compiled CPython extensions rather than readable source.
+ One package serves x86_64 and aarch64: an extension's filename encodes the
+ platform and interpreter, so each host loads only the .so built for it.
+ .
+ Installs to /data/app/prod/parser and registers the bluemesh-parser systemd unit on port 8152.
+ Python dependencies are installed into a private virtualenv by the post-install
+ step; that requires network access.
+
